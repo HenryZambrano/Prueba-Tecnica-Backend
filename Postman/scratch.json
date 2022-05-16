@@ -1,0 +1,72 @@
+{
+  "info": {
+    "_postman_id": "2be11127-62b2-4f34-9076-ae5f685cd0b2",
+    "name": "Pruebas Postman",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "localhost:8080/usuarios",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "   {\r\n        \"id\": 1\r\n        \r\n    }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/usuarios"
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:8080/usuarios",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "   {\r\n        \"id\": 1,\r\n        \"nombre\": \"Manuel\",\r\n        \"cedula\": \"111112\",\r\n        \"telefono\": \"320212121\"\r\n    }\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/usuarios"
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:8080/usuarios",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"nombre\" : \"samuel\",\r\n    \"cedula\" : \"1111111\",\r\n    \"telefono\" : \"22222222\"\r\n\r\n\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "localhost:8080/usuarios"
+      },
+      "response": []
+    },
+    {
+      "name": "localhost:8080/usuarios",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "localhost:8080/usuarios"
+      },
+      "response": []
+    }
+  ]
+}
